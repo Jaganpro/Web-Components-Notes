@@ -18,8 +18,44 @@
   * Framework / Library Agnostic
   * Longer Life components
   
-* Web Component Specification consist of 4 major areas
+* Web Component Specification consist of 4 major areas (Web Standards)
   * Custom Elements
   * Shadow DOM
   * HTML Templates
   * HTML Imports
+
+### What are native DOM Elements?
+
+* Web components are just DOM Elements that are created by component author.
+* Using **Custom Elements Specification** it is possible to create our own custom HTML element, define tag and behavior.
+* With custom DOM element, we can add **Properties, methods and functionality** beyond what native DOM elements can provide.
+* We can also extend Native DOM elements and custom elements.
+
+### Basic Anatomy of basic DOM Elements
+
+* DOM Elements are just JS objects that has prototype JS inheritance.
+* If we use **console.dir($p)** (lets say we have a p tag in HTML), we can see all the properties of <P> Object
+* Look at the example below
+ 
+ ![image](https://user-images.githubusercontent.com/2145211/50198045-e3a6c780-0317-11e9-97d5-2347a3c863f6.png)
+ 
+* Here we can see all the methods and properties available.
+* When we are creating Custom Elements, we define our own interface and its own properties and methods.
+
+### Basic Example of Custom Elements
+* When creating Web components, we can use ES2015 (or ES6) to define.
+* First, we extend all the **HTMLElement** interface which will give us all the properties and method a typical DOM element required to have without having to do any work.
+
+* We will also define constuctor, where we need to always called **super()** to constuct the parent.
+* Once this is created, we need to tell the browser about it and specify the HTML tag. To do this, we use **window.customElements()** API. Using the **Define** method, we can define the tag Name.
+* Then we pass in the element prototype - which is the class we created. 
+* Now, the browser will know how to construct the DOM element with the tag name <my-custom-element)
+
+ ![image](https://user-images.githubusercontent.com/2145211/50198571-28336280-031a-11e9-9811-ebbab0f45aa2.png)
+ 
+ ![image](https://user-images.githubusercontent.com/2145211/50198591-38e3d880-031a-11e9-8fa8-ddb2af9bf38f.png)
+ 
+ 
+ 
+ 
+ 
