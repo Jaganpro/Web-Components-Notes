@@ -1,1 +1,1 @@
-# Web-Components-Tutorial
+# Web-Components-Notes
