@@ -62,6 +62,8 @@
   * **attributeChangeCallback()** -- Subscribes to changes of certain attributes on the element instance. To configure what attributes we need to subscribe to, we need to specify the names of the attributes using **static get observedAttributes()** by adding array of names.
   * **disconnectedCallback()** -- Executed when the element is removed from the DOM
  
+ ![image](https://user-images.githubusercontent.com/2145211/50199223-ab09ec80-031d-11e9-8cba-ba89d53c6087.png)
+ 
  
  
  
