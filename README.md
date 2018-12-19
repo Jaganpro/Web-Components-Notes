@@ -65,7 +65,7 @@
  ![image](https://user-images.githubusercontent.com/2145211/50199223-ab09ec80-031d-11e9-8cba-ba89d53c6087.png)
  
  
- 
+ ### Extending Custom Elements
  
  
  
