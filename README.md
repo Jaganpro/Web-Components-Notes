@@ -56,6 +56,31 @@
  ![image](https://user-images.githubusercontent.com/2145211/50198619-56b13d80-031a-11e9-9290-5946c0e95696.png)
  
  
+* Apart from this, we have number of lifecycle callback methods when the custom element is created and destroyed in DOM.
+* The 3 most used callbacks are 
+  * **connectedCallback()** -- This is executed when the element is connected to the DOM
+  * **attributeChangeCallback()** -- Subscribes to changes of certain attributes on the element instance. To configure what attributes we need to subscribe to, we need to specify the names of the attributes using **static get observedAttributes()** by adding array of names.
+  * **disconnectedCallback()** -- Executed when the element is removed from the DOM
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
