@@ -3,7 +3,7 @@
 ### What are web components?
 * When we build web components, there are 3 fundamental building blocks. (HTML, CSS, Javascript)
 * Web components brings all these 3 technologies together to build truly encapsulated, self-containing components for the web.
-* Some of the popular web components frameworks are 
+* Some of the popular web components frameworks are:
   * Polymer
   * SkateJS
   * x-tag
@@ -67,7 +67,13 @@
  
  ### Extending Custom Elements
  
+ * It is possible to extend custom Elements. For Example:
  
+ ![image](https://user-images.githubusercontent.com/2145211/50744107-cd40ad00-11ed-11e9-9a91-10a6fa4b89e3.png)
+ 
+ * Output:
+ 
+ ![image](https://user-images.githubusercontent.com/2145211/50743986-21e32880-11ec-11e9-96a9-81f3b1f5cca7.png)
  
  
  
