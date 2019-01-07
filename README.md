@@ -65,7 +65,7 @@
  ![image](https://user-images.githubusercontent.com/2145211/50199223-ab09ec80-031d-11e9-8cba-ba89d53c6087.png)
  
  
- ### Extending Custom Elements
+ ### Extending Custom Elements:
  
  * It is possible to extend custom Elements. For Example:
  
@@ -78,12 +78,23 @@
  Since this is extended, we have access to both the methods.
  
  
+ ### Extending Native Elements:
  
+ * The main use of extending native element is that we get all the native features of that html attribute we are extending without rebuilding everything from the scratch.
+ * Here in this example, we are extending the Anchor Element **HTMLAnchorElement** and not the basic **HTMLElement**
+ * Here we want the user to be prompted an alert message before navigating to the new link. This is the feature we are going to implement in custom Anchor Element.
+ * For this we need to add a Custom Event Listener. 
+ * There are 2 other differences when extending custom element
+   * We have to use "extends" and specify the standard element we are extending
+   * In the actual tag, is="custom-anchor" attribute is added.
  
+ * CODE:
  
+ ![image](https://user-images.githubusercontent.com/2145211/50744459-59a09f00-11f1-11e9-94f9-20bbc636fdfd.png)
  
+ * OUTPUT:
  
- 
+![image](https://user-images.githubusercontent.com/2145211/50744451-4c83b000-11f1-11e9-82f4-4cfceec9f9cc.png)
  
  
  
