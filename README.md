@@ -73,7 +73,11 @@
  
  * Output:
  
- ![image](https://user-images.githubusercontent.com/2145211/50743986-21e32880-11ec-11e9-96a9-81f3b1f5cca7.png)
+ ![image](https://user-images.githubusercontent.com/2145211/50744141-37595200-11ee-11e9-87cb-cc32c0bc152e.png)
+ 
+ Since this is extended, we have access to both the methods.
+ 
+ 
  
  
  
